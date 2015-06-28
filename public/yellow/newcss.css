@@ -1,0 +1,129 @@
+
+
+a{color:#000000; text-decoration: none !important;}
+.inner.newpage { background:url(newimg/bg1.jpg) center top / cover no-repeat fixed;}
+
+.innerpageContent .finder h1 { float:left; line-height:24px; margin-right:5px;}
+.innerpageContent .finder p {  line-height:32px; margin:0}
+.innerpageContent .finder .field { margin-top:11px; margin-bottom:15px; }
+.innerpageContent .finder .field.f-right{ width:62%;}
+.innerpageContent .finder .submitbtn{ min-width: 0; height:36px; line-height:0px;margin: 0 5px; background:#333 !important; color:#fff !important}
+.innerpageContent .finder .submitbtn:hover{ background:#000 !important;}
+.counter{ width:100%; overflow:hidden; background:#f1f1f1; border:1px solid #ccc; border-top:0}
+.counter li{ float:left; padding:1% 2%}
+.counter li p{ line-height:normal !important; margin:0}
+.breadcrums{ padding: 10px; margin: 0 0px;}
+.breadcrums ol{ padding: 0px; margin: 0 0px;}
+
+
+.widget{background-color: white; float:left; width:100%; margin-bottom:20px; box-shadow: 0 1px 2px rgba(0,0,0,0.2)}
+.widget .widgetTitle{ _height:40px; padding:5px 10px; overflow:hidden; background:#333;}
+.widget .widgetTitle h3{ float:left; line-height:26px; color:#fff}
+.widget .widgetTitle span{ float:right; line-height:26px; color:#fff}
+.widget .widgetTitle span a:hover{ color:#fff}
+.widget .widgetContent{ padding: 10px; padding-bottom:20px; _overflow:hidden; background:#fff}
+.widget .widgetContent .list { overflow:hidden;padding: 10px;}
+.widget .widgetContent .list li{ line-height:normal; margin-bottom: 10px}
+
+.widget .widgetContent .aside-list{ padding-top:10px;}
+.widget .widgetContent .aside-list li{ overflow:hidden; width:100%; border-bottom:1px solid #ccc; margin-bottom:10px; padding-bottom:10px;}
+.widget .widgetContent .aside-list li:last-child{ border-bottom:0; margin-bottom:0; padding-bottom:0;}
+.widget .widgetContent .aside-list li img{ width:100%; max-height:150px;}
+.widget .widgetContent .aside-list p{ line-height:normal; font-size:12px}
+
+.widget .bottom-border{border-top: 1px solid #ddd}
+.widget .block{padding: 10px; border-bottom: 0px solid #ddd; border-bottom: none; margin-bottom: 10px}
+
+
+.widget hr{border-top: 1px dashed #dfdfdf;line-height: 50px}
+
+.widget .listing blockquote {
+    padding: 0px 20px;
+    margin: 0 0 20px;
+    font-size: 14.5px;
+    border-left: 2px solid #d0d0d0;
+    margin: 1em 5px;
+}
+
+.widget .widget-footer{padding: 20px 0px 0px; border: 0px solid #ddd; border-bottom: none;
+    border-top: 1px solid #ddd ;
+}
+
+
+
+.resp-tabs-list li.resp-tab-active {
+    background: #FD0;
+}
+.resp-tab-content {
+    border: 1px solid #DDD;
+}
+.fixed-block-top{
+    border: 1px solid #ddd;
+    border-bottom: none;
+    padding: 10px 0px;
+    width:100%;
+    float: left; background-color: white;
+}
+
+.margin-bottom{margin-bottom: 10px}
+.margin-top{margin-top: 10px}
+
+.bt{font-size: 1.7em; font-weight: bold; color: #0163ac}
+
+.ratting{
+    padding: 5px; background-color: #FFF200; border: 1px solid #FFDD00;
+    font-size: 1.7em; font-weight: bold; color: #0163ac;
+    float: left; text-align: center;
+    text-shadow: 1px 0px 2px rgba(150, 150, 150, 1);
+}
+.ratting .text{font-size: 13px; text-shadow:none}
+
+
+
+.twocol .acc_title { width:100%; padding: 5px 10px; _height:30px; background:#FFF200;}
+.twocol .acc_title h3{ display:block; line-height:20px; font-size:14px}
+.acc_content{ clear:both; overflow:hidden; margin-bottom:5px;}
+.accordion{ margin-bottom:5px;}
+
+.twoColTab{ margin-bottom:30px !important;}
+.lsidebar{}
+.twoColTab .row{ padding-bottom:10px; border-bottom:1px solid #ccc; margin-bottom:10px;}
+.twoColTab .row:last-child{ margin:0; border:0; padding-bottom:0}
+.twoColTab .row .col-md-12 h3 + p{ border: 1px dashed #a2561e; padding:10px; margin:10px 0}
+.tgs h4 { float:left; margin-right:10px; padding-left:20px;}
+.row1 { margin-top:15px; float:left; width:100%}
+.row1 .submitbtn{ margin-left:15px; margin-right:15px;}
+.row.nomargin{ margin-left:-5px; margin-right:-5px;}
+
+.notif{ background:url(newimg/bell.png) 0 3px no-repeat; padding-left:24px; background-size:14px; margin-top:10px;}
+.views{ background:url(newimg/eye.png) 0 1px no-repeat; padding-left:24px; margin-bottom:10px;}
+.leftBorder{ border-left:1px dotted #a2561e}
+.rightalign{ float:right;}
+.widgetContent.map{ padding:10px}
+
+
+@media only screen and (max-width: 991px) {
+    .newpage .innerpageContent{ width:96%}
+
+}
+
+.innerpageContent h1 {
+    font-weight: 400;
+    display: block;
+    font-size: 1.5em;
+}
+
+.thin{font-weight: 300}
+
+
+
+
+
+
+
+
+
+
+
+
+

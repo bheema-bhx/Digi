@@ -1,0 +1,264 @@
+@import
+	url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900)
+	;
+
+body {
+	font-family: 'Roboto', sans-serif
+}
+
+html,button,input,select,textarea {
+	color: #222
+}
+
+html {
+	font-size: 1em;
+	line-height: 1;
+	font-weight: 400;
+	_word-break: break-all;
+	word-wrap: normal;
+}
+
+*,*:after,*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+@media screen and (max-width:65em) {
+	body {
+		font-size: 85%
+	}
+}
+
+@media screen and (max-width:60em) {
+	.ha-header-perspective>div,.ha-header nav {
+		text-align: center
+	}
+	.ha-header h1 {
+		padding: 10px 0;
+		height: 60%
+	}
+	.ha-header .ha-header-bottom nav {
+		padding: 40px 0
+	}
+	.ha-header nav {
+		display: block;
+		height: auto
+	}
+}
+
+@media screen and (max-width:38em) {
+	section {
+		font-size: 1.3em
+	}
+	.ha-header h1 {
+		font-size: 2em
+	}
+}
+
+.ha-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0;
+	z-index: 50;
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	transform: translateY(0%);
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s
+}
+
+.ha-header .ha-header-front {
+	z-index: 2;
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	transform-origin: 50% 100%
+}
+
+.ha-header-perspective {
+	width: 100%;
+	position: fixed;
+	-webkit-perspective: 1100px;
+	-moz-perspective: 1100px;
+	perspective: 1100px;
+	-webkit-perspective-origin: 50% 0;
+	-moz-perspective-origin: 50% 0;
+	perspective-origin: 50% 0
+}
+
+.ha-header-perspective .ha-header-bottom {
+	background: #ddd;
+	-webkit-transform-origin: 50% 0;
+	-moz-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	z-index: 1;
+	-webkit-transform: rotateX(-90deg);
+	-moz-transform: rotateX(-90deg);
+	transform: rotateX(-90deg);
+	-webkit-transition: top .5s;
+	-moz-transition: top .5s;
+	transition: top .5s;
+	position: absolute;
+	top: 0
+}
+
+.ha-header-perspective>div {
+	background: #fff;
+	text-align: left;
+	padding: 0 7%;
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	text-align: justify;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s
+}
+
+.text-yellow {
+	color: #f3b504;
+	_text-shadow: 1px 1px 1px #000
+}
+
+.text-red {
+	color: #800000
+}
+
+.text-dark {
+	color: #2b2d30 !important
+}
+
+.text-pink {
+	color: #c44a83 !important
+}
+
+.text-grass-green {
+	color: #5daf2b !important
+}
+
+.text-sea-blue {
+	color: #0163ac !important
+}
+
+.text-banana {
+	color: #fcd052 !important
+}
+
+.text-dark-orange {
+	color: #f56e00 !important
+}
+
+.text-brown {
+	color: #924e31 !important
+}
+
+.listing h2 a {
+	font-size: x-large;
+	font-weight: 300;
+	color: #001a2d
+}
+
+.listing .btn {
+	border: 0;
+	border: 1px dotted #dfdfdf
+}
+
+.listing .footer {
+	padding: 3px;
+	left: 0;
+	min-height: 10px;
+	float: left
+}
+
+.listing .fa-light {
+	color: #dfdfdf
+}
+
+.listing .fa-light:hover {
+	color: #006287
+}
+
+.field {
+	border: 1px solid #ddd;
+	box-shadow: 0 2px 2px #f0f0f0 inset;
+	border-radius: 0;
+	background: #fff;
+	line-height: 36px;
+	height: 36px;
+	padding: 0 10px;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	width: 100%
+}
+
+.field :hover {
+	border-color: #999
+}
+
+.field :focus {
+	border-color: #a2561e;
+	box-shadow: 0 0 6px #a2561e
+}
+
+.search-field {
+	margin-top: 11px;
+	margin-bottom: 15px;
+	border: 1px solid #ddd;
+	box-shadow: 0 2px 2px #f0f0f0 inset;
+	border-radius: 0;
+	background: #fff;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 10px;
+	-webkit-transition: all .5s ease-out;
+	-moz-transition: all .5s ease-out;
+	transition: all .5s ease-out;
+	width: 100%
+}
+
+.f-right {
+	width: 80%
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none
+}
+
+.category-image {
+	margin-bottom: 10px;
+	_width: 16.6%;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+	position: relative;
+	z-index: 1;
+	overflow: hidden
+}
+
+.category-image .fa-border {
+	border: 0
+}
+
+.category-image .fa-yellow {
+	_background-color: #dbdbdb;
+	color: #001a2d;
+	text-shadow: 0 0 0 #4d4d4d;
+	color: #ae4e00
+}
+
+.category-image #text {
+	padding: 10px 0
+}
+
+.category-image h2 {
+	font-size: 14px
+}

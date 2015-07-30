@@ -11,10 +11,14 @@
 |
 */
 
+Route::get('bheema', 'BheemaController@index');
+
 Route::get('/', 'HomeController@index');
 Route::get('home', 'HomeController@index');
 Route::get('about', 'PagesController@about');
 Route::get('contact', 'PagesController@contact');
+Route::get('welcome', 'PagesController@welcome');
+Route::get('jobs', 'PagesController@jobs');
 
 Route::pattern('id', '[0-9]+');
 Route::get('news/{id}', 'ArticlesController@show');

@@ -14,7 +14,8 @@ class PagesController extends Controller {
 
 	public function about()
 	{
-		return view('pages.about');
+		$people = ["bheema","shankar","satya","santosh","veeru"];
+		return view('pages.about', compact('people'));
 	}
 
 	public function contact()
@@ -22,4 +23,8 @@ class PagesController extends Controller {
 		return view('pages.contact');
 	}
 
+	public function jobs()
+	{
+		return view('pages.jobs');
+	}
 }
